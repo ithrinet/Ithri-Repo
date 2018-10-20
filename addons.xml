@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.ithri.animeflv" name="AnimeFLV" version="3.0" provider-name="Ithrinet">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.urlresolver"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">AnimeFLV : Tu Fuente Diaria De Anime En Español</summary>
+    <description lang="en">Anime Online de manera gratuita en los mejores servidores, sin ninguna clase de restricción</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <language></language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website>https://animeflv.net/</website>
+    <email></email>
+    <source>https://github.com/ithrinet/Ithri-Repo/tree/master/plugin.video.ithri.animeflv</source>
+    <news>Big THX to all contributors!
+      For more information check out the commit history at GitHub.
+
+    </news>
+    <assets>
+     <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>art/screenshot-01.png</screenshot>
+       <screenshot>art/screenshot-02.png</screenshot>
+       <screenshot>art/screenshot-03.png</screenshot>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="repository.ithri" name="Ithri Repository" version="1.0.0" provider-name="Ithri">
+  <extension point="xbmc.addon.repository" name="Ithri Repository">
+  <dir>
+        <info compressed="false">https://github.com/ithrinet/Ithri-Repo/raw/master/addons.xml</info>
+        <checksum>https://github.com/ithrinet/Ithri-Repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/ithrinet/Ithri-Repo/raw/master/zips/</datadir>
+  </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Add-ons from ithri's Repository</summary>
+    <description lang="en">Download and install add-ons from Ithri Repository</description>
+    <platform>all</platform>
+    <forum>http://ithri.square7.ch/home</forum>
+    </extension>
+</addon>
+</addons>
