@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.ithri.assabile" name="Assabile.Com" version="1.1" provider-name="Ithrinet">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="assabile.py">
+    <provides>audio video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <summary lang="en">Assabile.Com : Listen the holy quran, recitation and quran reading mp3</summary>
+    <summary lang="fr">Assabile.Com : Ecouter le saint coran, récitation et lecture du quran mp3</summary>
+    <summary lang="es">Assabile.Com : Escucha y descarga el Sagrado Corán,  recitación y lectura del quran mp3</summary>
+    <summary lang="ar">Assabile.Com : استماع و تحميل القرآن الكريم كاملا، تنزيل قراءة و تلاوة القرآن</summary>
+    <language>en</language>
+    <summary lang="en">Assabile : Tu Fuente Diaria De Anime En Español</summary>
+    <description lang="en">The website Assabile offers the Quran recited in Arabic for free by more than a hundred reciters. You can also download the full Quran for free in mp3 and pdf format.</description>
+    <description lang="fr">Découvrez sur Assabile la quintessence de l&#039;Islam à travers les multiples récitations du Saint Coran proposées au fil des pages, les leçons et chants religieux ainsi que de multiples articles de tous bords.</description>
+    <description lang="ar">يمد موقع السبيل الزائر بالمقرئين المشهورين في العالم الإسلامي لتلاوة القرآن الكريم، كما يمكن الموقع من تحميل القرآن الكريم و التمتع بالأناشيد الدينية و الإستفادة من مجموعة غنية من الدروس الدينية.</description>
+    <description lang="es">El sitio Assabile ofrece gratis el Corán recitado en árabe por más de ciento recitadores. También puede descargar el Corán en entero gratis en formato mp3 y en formato pdf.</description>
+
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website>http://www.assabile.com/</website>
+    <email>contact@ithri.net</email>
+    <source>https://github.com/ithrinet/xbmc-addons-repo/tree/master/plugin.video.ithri.assabile</source>
+  </extension>
+</addon>

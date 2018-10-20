@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.ithri.telemaroc" provider-name="Ithrinet" version="1.0" name="[COLOR red]Tele[/COLOR] Maroc">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.requests"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.youtube"/>
+    <import addon="script.module.urlresolver"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Tele Maroc - TV with a new vision.</summary>
+    <summary lang="de">Tele Maroc - TV mit einer neuen Vision.</summary>
+    <summary lang="es">Tele Maroc - TV con una nueva visión.</summary>
+    <summary lang="fr">Tele Maroc - TV avec une nouvelle vision.</summary>
+    <summary lang="ar">تيلي ماروك - التليفزيون برؤية جديدة.</summary>
+
+    <description lang="es">TeleMaroc.TV es la interfaz web oficial del canal TeleMaroc, que emite en satélites de la capital española de Madrid. El sitio web de TeleMaroc publica todas las fechas de los programas del canal, así como la reedición de los episodios de los programas que se verán en línea e interactuará con ellos por Visor</description>
+    <description lang="en">TeleMaroc.TV is the official web interface of the TeleMaroc channel, which broadcasts on satellites from the Spanish capital of Madrid. The TeleMaroc website publishes all the dates of the channel's programs, as well as the re-publication of the episodes of the programs to be viewed online and interacted with them by Viewer.</description>
+    <description lang="de">TeleMaroc.TV ist das offizielle Webinterface des TeleMaroc-Kanals, der auf Satelliten aus der spanischen Hauptstadt Madrid sendet. Die TeleMaroc-Website veröffentlicht alle Daten der Programme des Kanals sowie die Neuveröffentlichung der Episoden der Programme, die online angesehen und mit ihnen interagiert werden können.</description>
+    <description lang="fr">TeleMaroc.TV est l'interface web officielle de la chaîne TeleMaroc, diffusée sur les satellites depuis la capitale espagnole de Madrid, le site TeleMaroc, qui publie toutes les dates des programmes de la chaîne, ainsi que la relecture des épisodes des programmes à consulter en ligne et en interaction avec eux Visionneuse.</description>
+    <description lang="ar">موقع "تيلي ماروك.تيفي" هو الواجهة الرسمية على شبكة الانترنت لقناة تيلي ماروك التي تبث برامجها على الأقمار الاصطناعية من العاصمة الإسبانية مدريد.ينشر موقع تيلي ماروك، جميع مواعيد برامج القناة، بالإضافة إلى إعادة نشر حلقات البرامج لمشاهدتها على الانترنت والتفاعل معها من طرف المشاهد..</description>
+
+    <disclaimer lang="en">The creators of this addon do not host or distribute any of the content displayed by the addon nor do they have any affiliation with the content providers.</disclaimer>
+    <disclaimer lang="de">Die Schöpfer dieses Addons hosten oder verteilen keinen der Inhalte, die vom Addon angezeigt werden, noch haben sie eine Zugehörigkeit zu den Inhaltsanbietern.</disclaimer>
+    <disclaimer lang="es">Los creadores de este complemento no alojan ni distribuyen ninguno de los contenidos mostrados por el complemento ni tienen ninguna afiliación con los proveedores de contenido.</disclaimer>
+    <disclaimer lang="fr">Les créateurs de cet addon n'hébergent pas ou ne distribuent aucun contenu affiché par l'addon et n'ont aucune affiliation avec les fournisseurs de contenu.</disclaimer>
+    <disclaimer lang="ar">مبرمج هذه اضافه لا يستضيف أو توزيع أي من المحتوى المعروض في هذه اضافه ليس له أي علاقة مع مقدمي المحتوى.</disclaimer>
+
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <website>https://www.telemaroc.tv/</website>
+    <email>ithrinet@outlook.com</email>
+    <source>https://github.com/ithrinet/xbmc-addons-repo/tree/master/plugin.video.ithri.telemaroc</source>
+    <news>
+
+    Big THX to all contributors!
+    For more information check  GitHub
+    https://github.com/ithrinet
+
+                                      Tele Maroc v1.1 - 15.10.2017
+    ================================================================================
+  Tele Maroc
+    - V1.0 Create Addon -15.10.2017
+
+    </news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+      <screenshot>resources/media/01.png</screenshot>
+      <screenshot>resources/media/02.png</screenshot>
+      <screenshot>resources/media/03.png</screenshot>
+      <screenshot>resources/media/04.png</screenshot>
+      <screenshot>resources/media/05.png</screenshot>
+      <screenshot>resources/media/06.png</screenshot>
+      <screenshot>resources/media/07.png</screenshot>
+      <screenshot>resources/media/08.png</screenshot>
+    </assets>
+  </extension>
+</addon>
