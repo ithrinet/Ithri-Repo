@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.ithri.animeflv" name="AnimeFLV" version="3.1" provider-name="Ithrinet">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -19,7 +19,7 @@
     <forum></forum>
     <website>https://animeflv.net/</website>
     <email></email>
-    <source>https://github.com/ithrinet/Ithri-Repo/tree/master/plugin.video.ithri.animeflv</source>
+    <source>https://github.com/ithrinet/xbmc-addons-repo/tree/master/plugin.video.ithri.animeflv</source>
     <news>Big THX to all contributors!
       For more information check out the commit history at GitHub.
 
