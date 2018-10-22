@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.ithri.animeflv" name="AnimeFLV" version="3.0" provider-name="Ithrinet">
+<addon id="plugin.video.ithri.animeflv" name="AnimeFLV" version="3.1" provider-name="Ithrinet">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
