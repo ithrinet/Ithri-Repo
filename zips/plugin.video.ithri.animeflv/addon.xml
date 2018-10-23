@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.ithri.animeflv" name="AnimeFLV" version="3.1" provider-name="Ithrinet">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.ithri.animeflv" name="AnimeFLV" version="3.2" provider-name="Ithrinet">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -19,17 +19,39 @@
     <forum></forum>
     <website>https://animeflv.net/</website>
     <email></email>
-    <source></source>
+    <source>https://github.com/ithrinet/Ithri-Repo/tree/master/zips/plugin.video.ithri.animeflv</source>
     <news>Big THX to all contributors!
       For more information check out the commit history at GitHub.
+      [B]3.2[/B]
+       23.10.2018
+      - Add Addon Screensho
+      - Fix others bugs
+      
+      [B]3.1[/B]
+         22.10.2018
+        - Fix Stream file problem
+        - Fix others bugs
 
+      [B]3.0[/B]
+         19.10.2018
+        - Fix bugs
     </news>
     <assets>
-     <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-       <screenshot>art/screenshot-01.png</screenshot>
-       <screenshot>art/screenshot-02.png</screenshot>
-       <screenshot>art/screenshot-03.png</screenshot>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+      <screenshot>art/screenshot-01.png</screenshot>
+      <screenshot>art/screenshot-02.png</screenshot>
+      <screenshot>art/screenshot-03.png</screenshot>
+      <screenshot>art/screenshot-04.png</screenshot>
+      <screenshot>art/screenshot-05.png</screenshot>
+      <screenshot>art/screenshot-06.png</screenshot>
+      <screenshot>art/screenshot-07.png</screenshot>
+      <screenshot>art/screenshot-08.png</screenshot>
+      <screenshot>art/screenshot-09.png</screenshot>
+      <screenshot>art/screenshot-10.png</screenshot>
+      <screenshot>art/screenshot-11.png</screenshot>
+      <screenshot>art/screenshot-12.png</screenshot>
+      <screenshot>art/screenshot-13.png</screenshot>
     </assets>
   </extension>
 </addon>
