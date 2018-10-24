@@ -230,7 +230,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.ithri.wehoh" provider-name="Ithrinet" version="1.0" name="[COLOR blue]Wehoh[/COLOR]">
+<addon id="plugin.video.ithri.wehoh" provider-name="Ithrinet" version="1.2" name="Wehoh">
   <requires>
   	<import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.requests"/>
@@ -247,7 +247,7 @@
   	<language>en</language>
   	<platform>all</platform>
   	<forum>http://www.ithri.com/forums/thehighways-xbmc-addons/</forum>
-  	<website>http://www.ithri.com/</website>
+  	<website></website>
   	<source></source>
   	<email></email>
   </extension>
