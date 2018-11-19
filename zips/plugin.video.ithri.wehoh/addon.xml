@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.ithri.wehoh" provider-name="Ithrinet" version="1.2" name="Wehoh">
+<addon id="plugin.video.ithri.wehoh" provider-name="Ithrinet" version="1.3" name="Wehoh">
   <requires>
   	<import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.requests"/>
