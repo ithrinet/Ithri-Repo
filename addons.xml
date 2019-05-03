@@ -57,7 +57,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.ithri.anyanime" provider-name="Ithrinet" version="1.2" name="[COLOR blue]Anyanime[/COLOR]">
+<addon id="plugin.video.ithri.anyanime" provider-name="Ithrinet" version="1.3" name="Anyanime">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.requests"/>
@@ -83,14 +83,14 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.ithri.arabic-toons" name="Arabic-toons" version="2.0" provider-name="Ithrinet">
+<addon id="plugin.video.ithri.arabic-toons" name="Arabic TOONS" version="2.1" provider-name="Ithri">
   <requires>
       <import addon="xbmc.python" version="2.14.0"/>
       <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4"/>
     <import addon="script.module.urlresolver"/>
   </requires>
-  <extension point="xbmc.python.pluginsource" library="arabic-toons.py">
+  <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
@@ -103,7 +103,7 @@
     <forum>http://xbmc.ithri.net/forum.php?thread=12345</forum>
     <website>http://www.arabic-toons.com/</website>
     <email>contact@ithri.net</email>
-    <source>https://github.com/ithrinet/xbmc-addons-repo/tree/master/plugin.video.ithri.cartoon3rbi</source>
+    <source></source>
   </extension>
 </addon>
 
@@ -137,7 +137,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.ithri.egyanime" provider-name="Ithrinet" version="1.1" name="[COLOR red]Egy[/COLOR][COLOR blue]Anime[/COLOR]">
+<addon id="plugin.video.ithri.egyanime" provider-name="Ithrinet" version="1.2" name="EgyAnime">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.requests"/>
@@ -256,9 +256,9 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.ithri.wehoh" provider-name="Ithrinet" version="1.3" name="Wehoh">
+<addon id="plugin.video.ithri.wehoh" provider-name="Ithrinet" version="1.4" name="Wehoh">
   <requires>
-  	<import addon="xbmc.python" version="2.1.0" />
+    <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4"/>
     <import addon="script.module.urlresolver"/>
@@ -267,15 +267,15 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-  	<summary>An alternative method to browsing your installed repositories.</summary>
-  	<description>A somewhat simple Repository Browser.  This is not a full replacement for XBMC's default repository browsing method(s).  Icon and Fanart artwork by Marquerite.  XBMCHUB backdrop by TheHighway (designed off the current default XBMCHUB logo).</description>
-  	<disclaimer>This Project is developped for XBMC Gotham 13.0 Alpha 6, designed for XBMC Gotham originally, with some mind given to Frodo 12.2/12.3. It gets a slight bit of testing as I use it myself, on a Windows 7 OS with whatever version of XBMC happens to be my main install at that time. Any other OS's / builds of XBMC have not be tested on yet, but do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
-  	<language>en</language>
-  	<platform>all</platform>
-  	<forum>http://www.ithri.com/forums/thehighways-xbmc-addons/</forum>
-  	<website></website>
-  	<source></source>
-  	<email></email>
+    <summary>An alternative method to browsing your installed repositories.</summary>
+    <description>A somewhat simple Repository Browser.  This is not a full replacement for XBMC's default repository browsing method(s).  Icon and Fanart artwork by Marquerite.  XBMCHUB backdrop by TheHighway (designed off the current default XBMCHUB logo).</description>
+    <disclaimer>This Project is developped for XBMC Gotham 13.0 Alpha 6, designed for XBMC Gotham originally, with some mind given to Frodo 12.2/12.3. It gets a slight bit of testing as I use it myself, on a Windows 7 OS with whatever version of XBMC happens to be my main install at that time. Any other OS's / builds of XBMC have not be tested on yet, but do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <forum>http://www.ithri.com/forums/thehighways-xbmc-addons/</forum>
+    <website></website>
+    <source></source>
+    <email></email>
   </extension>
 </addon>
 
