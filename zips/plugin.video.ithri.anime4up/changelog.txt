@@ -1,3 +1,8 @@
+0.4
+	- 2 neue Kategorie hinzugefügt
+		- Neueste Serien
+		- Meistgesehen der Saison
+	- ab jetzt nur deutsche sprache
 0.3
 	- Opcion de Busqueda mejorada
 	- Solucionada problema de Encondig
