@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.ithri.anime4up" provider-name="Ithri" version="0.2" name="Anime4up">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.requests"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.resolveurl"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>انمي اون لاين - anyanime | لمشاهدة و تحميل الانمي المترجم اون لاين</summary>
+    <description>مشاهدة وتحميل انمي Boruto: Naruto Next Generations الحلقة 202 مترجمة اونلاين HD وتحميل مباشر انمي بوروتو الحلقة 202 كاملة اون لاين | انمي فور اب Anime4up
+    </description>
+    <disclaimer>This Project is developped for XBMC Gotham 13.0 Alpha 6, designed for XBMC Gotham originally, with some mind given to Frodo 12.2/12.3. It gets a slight bit of testing as I use it myself, on a Windows 7 OS with whatever version of XBMC happens to be my main install at that time. Any other OS's / builds of XBMC have not be tested on yet, but do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <forum>http://www.ithri.com/forums/thehighways-xbmc-addons/</forum>
+    <website>http://www.anyanime.com</website>
+    <email>info@anime4up.com</email>
+    <source>https://github.com/ithrinet/xbmc-addons-repo/tree/master/plugin.video.ithri.anime4up</source>
+    <news>Big THX to all contributors!
+      For more information check out the commit history at GitHub.
+    </news>
+  </extension>
+</addon>

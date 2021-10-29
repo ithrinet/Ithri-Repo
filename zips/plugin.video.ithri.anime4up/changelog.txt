@@ -1,0 +1,5 @@
+0.2
+	- FIX: crash Errors
+
+0.1
+	- intial version
