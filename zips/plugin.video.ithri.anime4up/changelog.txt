@@ -1,3 +1,10 @@
+0.5
+	- neue Kategorie hinzugefügt
+		- Movies
+		- Animes
+		- Ovas
+		- Onas
+	- Andere Probleme behoben
 0.4
 	- 2 neue Kategorie hinzugefügt
 		- Neueste Serien
